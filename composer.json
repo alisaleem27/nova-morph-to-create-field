@@ -1,0 +1,38 @@
+{
+    "name": "alisaleem27/nova-morph-to-create-field",
+    "description": "A Laravel Nova field.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "require-dev": {
+        "laravel/nova": "^4.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "AliSaleem\\MorphToCreateField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AliSaleem\\MorphToCreateField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
