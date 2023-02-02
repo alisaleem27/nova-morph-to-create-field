@@ -6,4 +6,4 @@ mix
     .setPublicPath('dist')
     .js('resources/js/field.js', 'js')
     .vue({version: 3})
-    .nova('aris/restricted-morph-to-field')
+    .nova('alisaleem/nova-morph-to-create-field')
