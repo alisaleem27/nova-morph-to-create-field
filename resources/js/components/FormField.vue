@@ -71,6 +71,7 @@
                     :show="relationModalOpen"
                     @set-resource="handleSetResource"
                     @create-cancelled="closeRelationModal"
+                    :size="field.modalSize"
                     :resource-name="resourceType"
                     :via-relationship="viaRelationship"
                     :via-resource="viaResource"
